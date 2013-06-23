@@ -155,6 +155,7 @@ class SimpleScraper {
 				$this->data['ogp'][$matches[1]] = $attrArray['content'];
 			} else if (
 				array_key_exists('name', $attrArray) &&
+				array_key_exists('content', $attrArray) &&
 				preg_match('~twitter:([a-zA-Z:_]+)~', $attrArray['name'], $matches)
 			) {
 				$this->data['twitter'][$matches[1]] = $attrArray['content'];

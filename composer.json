@@ -1,0 +1,19 @@
+{
+    "name": "voceconnect/simple-scraper",
+    "description": "Simple Scraper",
+    "authors": [
+        {
+            "name": "Ramon Kayo",
+            "email": "contact@ramonkayo.com"
+        },
+        {
+            "name": "Jeff Stieler",
+            "email": "contact@ramonkayo.com"
+        }
+
+    ],
+	"type": "library",
+    "autoload": {
+		"files": ["SimpleScraper.class.php"]
+    }
+}
